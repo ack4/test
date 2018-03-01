@@ -1,4 +1,4 @@
-package design.oss.Main;
+package net.ack4;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -16,7 +16,6 @@ public class Udp {
 		channel = DatagramChannel.open();
 		// 送信元ポート(nullの場合はランダム)
 		channel.socket().bind(new InetSocketAddress(CLIENT_PORT));
-		//channel.socket().bind(null);
 	}
 
 	public void send(String addr, int port, Object message) throws IOException {

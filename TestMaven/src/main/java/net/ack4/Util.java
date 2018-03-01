@@ -1,11 +1,11 @@
-package design.oss.Main;
+package net.ack4;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Util {
 
-	private static final Logger TEE_LOG = Util.getLogger("design.oss.log.tee");
+	private static final Logger TEE_LOG = Util.getLogger("net.ack4.log.tee");
 	public static Object tee(Object message) {
 		TEE_LOG.info(message);
 		return message;

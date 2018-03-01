@@ -74,17 +74,17 @@
 			<AppenderRef ref="STDOUT1" />
 		</Root>
 
-		<Logger name="design.oss.log.info1" level="info" additivity="false">
+		<Logger name="net.ack4.log.info1" level="info" additivity="false">
 			<AppenderRef ref="STDOUT1" />
 			<AppenderRef ref="ROLLING1" />
 		</Logger>
 
-		<Logger name="design.oss.log.info2" level="info" additivity="false">
+		<Logger name="net.ack4.log.info2" level="info" additivity="false">
 			<AppenderRef ref="STDOUT2" />
 			<AppenderRef ref="ROLLING2" />
 		</Logger>
 
-		<Logger name="design.oss.log.tee" level="info" additivity="false">
+		<Logger name="net.ack4.log.tee" level="info" additivity="false">
 			<AppenderRef ref="TEE_CONSOLE" />
 			<AppenderRef ref="TEE_ROLLING" />
 		</Logger>

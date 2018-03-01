@@ -1,4 +1,4 @@
-package design.oss.Main;
+package net.ack4;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -6,10 +6,9 @@ import java.time.LocalDateTime;
 import org.apache.logging.log4j.Logger;
 
 public class Main {
-	public final static Logger SLOG = Util.getLogger("design.oss.log.info1");
-	public final static Logger LOG = Util.getLogger("design.oss.log.info2");
-	//public final static String IP_ADDR = "192.168.1.7";
-	public final static String IP_ADDR = "160.16.236.135";
+	public final static Logger SLOG = Util.getLogger("net.ack4.log.info1");
+	public final static Logger LOG = Util.getLogger("net.ack4.log.info2");
+	public final static String IP_ADDR = "192.168.1.7";
 	public final static int PORT = 9000;
 
 	public static void main(String[] args) throws IOException {
